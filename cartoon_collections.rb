@@ -4,7 +4,7 @@ end
 
 def summon_captain_planet(planet)
   planet.map! {|x| x.capitalize}
-  planet.collect {|x| x.push(!)}
+  planet.collect {|x| x << !}
   return planet
 end
 
