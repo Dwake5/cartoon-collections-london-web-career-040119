@@ -4,7 +4,7 @@ end
 
 def summon_captain_planet(planet)
   planet.map! {|x| x.capitalize}
-  planet.each! { |name| name + '!' }
+  planet.each { |name| name << ! }
   return planet
 end
 
