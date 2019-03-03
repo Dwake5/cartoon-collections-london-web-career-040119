@@ -4,6 +4,7 @@ end
 
 def summon_captain_planet(planet)
   planet.map! {|x| x.capitalize}
+  planet.each { |name| puts name + '!' }
 end
 
 def long_planeteer_calls# code an argument here
