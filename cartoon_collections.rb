@@ -4,6 +4,7 @@ end
 
 def summon_captain_planet(planet)
   planet.collect {|x| x.capitalize.push(!)}
+  end
 end
 
 def long_planeteer_calls# code an argument here
