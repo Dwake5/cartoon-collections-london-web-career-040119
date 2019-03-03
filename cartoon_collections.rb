@@ -3,7 +3,7 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(planet)
-  planet.collect {|x| x.capitalize}
+  planet.map! {|x| x.capitalize}
   planet.collect {|x| x.push(!)}
   return planet
 end
