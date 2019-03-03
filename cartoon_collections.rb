@@ -4,9 +4,6 @@ end
 
 def summon_captain_planet(planet)
   planet.map! {|x| x.capitalize}
-  planet.collect {|x| x << !}
-  end
-  return planet
 end
 
 def long_planeteer_calls# code an argument here
